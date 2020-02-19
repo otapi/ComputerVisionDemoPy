@@ -13,10 +13,10 @@ python -m pip install pillow
 """
 # Set image_url to the URL of an image that you want to analyze.
 image_url = "https://kep.cdn.indexvas.hu/1/0/3156/31562/315621/31562139_2422923_7002e673ede4c75128eabfe8265c224c_wm.jpg"
-# Add your Computer Vision subscription key and endpoint to your environment variables.
+# Set your Computer Vision subscription key.
 subscription_key = ""
-
 endpoint = "https://westcentralus.api.cognitive.microsoft.com/"
+
 analyze_url = endpoint + "vision/v2.1/analyze"
 headers = {'Ocp-Apim-Subscription-Key': subscription_key}
 
